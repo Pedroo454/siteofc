@@ -1,14 +1,13 @@
-
 import React, { useState } from 'react';
-import { Page } from './types';
-import { SCHOOL_NAME, Icons } from './constants';
-import HomePage from './pages/HomePage';
-import SchoolPage from './pages/SchoolPage';
-import StudiesPage from './pages/StudiesPage';
-import InterclassesPage from './pages/InterclassesPage';
-import AnnouncementsPage from './pages/AnnouncementsPage';
-import GalleryPage from './pages/GalleryPage';
-import AboutPage from './pages/AboutPage';
+import { Page } from './types.ts';
+import { SCHOOL_NAME, Icons } from './constants.tsx';
+import HomePage from './pages/HomePage.tsx';
+import SchoolPage from './pages/SchoolPage.tsx';
+import StudiesPage from './pages/StudiesPage.tsx';
+import InterclassesPage from './pages/InterclassesPage.tsx';
+import AnnouncementsPage from './pages/AnnouncementsPage.tsx';
+import GalleryPage from './pages/GalleryPage.tsx';
+import AboutPage from './pages/AboutPage.tsx';
 
 const App: React.FC = () => {
   const [currentPage, setCurrentPage] = useState<Page>('home');
