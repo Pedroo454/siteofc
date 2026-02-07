@@ -13,6 +13,7 @@ export interface NewsItem {
   id: number;
   title: string;
   excerpt: string;
+  content: string; // Adicionado para suportar o "Leia mais"
   image: string;
   date: string;
 }
