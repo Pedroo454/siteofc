@@ -13,9 +13,15 @@ export interface NewsItem {
   id: number;
   title: string;
   excerpt: string;
-  content: string; // Adicionado para suportar o "Leia mais"
+  content: string;
   image: string;
   date: string;
+}
+
+export interface Album {
+  title: string;
+  cover: string;
+  images: string[]; // Lista de todas as fotos do álbum
 }
 
 export interface EventDate {
