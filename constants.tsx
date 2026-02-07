@@ -5,7 +5,7 @@ import { Announcement, NewsItem, EventDate, Book, GameResult } from './types';
 export const SCHOOL_NAME = "EE Américo Franco";
 
 export const ANNOUNCEMENTS: Announcement[] = [
-  { id: 1, title: "Início das Aulas - 1º Semestre 2024", date: "05/02/2024", category: "Geral", content: "Sejam bem-vindos! As aulas iniciam oficialmente para todos os períodos. Compareçam uniformizados e com documento de identificação." },
+  { id: 1, title: "Início das Aulas - 1º Semestre 2026", date: "02/02/2026", category: "Geral", content: "Sejam bem-vindos! As aulas iniciam oficialmente para todos os períodos. Compareçam uniformizados e com documento de identificação." },
   { id: 2, title: "Atualização Cadastral Necessária", date: "10/02/2024", category: "Urgente", content: "Todos os alunos devem atualizar o endereço e telefone na secretaria para fins de emissão do cartão transporte." },
   { id: 3, title: "Reunião do Grêmio Estudantil", date: "15/02/2024", category: "Evento", content: "Primeira reunião aberta do ano no pátio central durante o intervalo do período matutino e vespertino." },
   { id: 4, title: "Entrega de Kit Escolar", date: "20/02/2024", category: "Geral", content: "A entrega dos kits enviados pelo estado será realizada por ordem alfabética na biblioteca." },
