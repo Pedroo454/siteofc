@@ -5,16 +5,37 @@ import { Announcement, NewsItem, EventDate, Book, GameResult } from './types';
 export const SCHOOL_NAME = "EE Américo Franco";
 
 export const ANNOUNCEMENTS: Announcement[] = [
-  { id: 1, title: "Início das Aulas - 1º Semestre 2026", date: "02/02/2026", category: "Geral", content: "Sejam bem-vindos! As aulas iniciam oficialmente para todos os períodos. Compareçam uniformizados e com documento de identificação." },
+  { id: 1, title: "Início das Aulas - 1º Semestre 2024", date: "05/02/2024", category: "Geral", content: "Sejam bem-vindos! As aulas iniciam oficialmente para todos os períodos. Compareçam uniformizados e com documento de identificação." },
   { id: 2, title: "Atualização Cadastral Necessária", date: "10/02/2024", category: "Urgente", content: "Todos os alunos devem atualizar o endereço e telefone na secretaria para fins de emissão do cartão transporte." },
   { id: 3, title: "Reunião do Grêmio Estudantil", date: "15/02/2024", category: "Evento", content: "Primeira reunião aberta do ano no pátio central durante o intervalo do período matutino e vespertino." },
   { id: 4, title: "Entrega de Kit Escolar", date: "20/02/2024", category: "Geral", content: "A entrega dos kits enviados pelo estado será realizada por ordem alfabética na biblioteca." },
 ];
 
 export const NEWS: NewsItem[] = [
-  { id: 1, title: "Novo Portal do Aluno Entra no Ar", excerpt: "A EE Américo Franco agora conta com um canal digital exclusivo para os estudantes acompanharem tudo o que acontece na unidade.", image: "https://images.unsplash.com/photo-1571260899304-425eee4c7efc?q=80&w=800&auto=format&fit=crop", date: "Fev 2024" },
-  { id: 2, title: "Preparação para o ENEM 2024", excerpt: "Professores da área de linguagens iniciam ciclo de oficinas focadas em redação nota mil. Confira os horários das monitorias.", image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=800&auto=format&fit=crop", date: "Fev 2024" },
-  { id: 3, title: "Revitalização da Quadra Poliesportiva", excerpt: "Com apoio do Grêmio, a quadra recebeu nova pintura para os jogos interclasses que se aproximam.", image: "https://images.unsplash.com/photo-1544919982-b61976f0ba43?q=80&w=800&auto=format&fit=crop", date: "Jan 2024" },
+  { 
+    id: 1, 
+    title: "Novo Portal do Aluno Entra no Ar", 
+    excerpt: "A EE Américo Franco agora conta com um canal digital exclusivo para os estudantes acompanharem tudo o que acontece na unidade.", 
+    content: "É com grande satisfação que o Grêmio Estudantil, em parceria com a diretoria, apresenta o novo Portal Estudantil da EE Américo Franco. Este canal foi desenvolvido para centralizar todas as informações relevantes: de avisos urgentes a tabelas de jogos interclasses e materiais de apoio para o ENEM. Nosso objetivo é aumentar a transparência e o engajamento de toda a comunidade escolar. Navegue pelas seções de Estudos, Galeria e Escola para conhecer todas as funcionalidades!",
+    image: "https://images.unsplash.com/photo-1571260899304-425eee4c7efc?q=80&w=800&auto=format&fit=crop", 
+    date: "Fev 2024" 
+  },
+  { 
+    id: 2, 
+    title: "Preparação para o ENEM 2024", 
+    excerpt: "Professores da área de linguagens iniciam ciclo de oficinas focadas em redação nota mil. Confira os horários das monitorias.", 
+    content: "O sucesso no ENEM começa agora! A equipe de Linguagens da nossa escola estruturou um cronograma intensivo de monitorias de redação. As aulas ocorrerão todas as terças e quintas-feiras, no contraturno escolar, na sala de multimídia. Além da correção de textos baseada nas competências do INEP, teremos debates sobre temas atuais e repertório sociocultural. Não perca a oportunidade de garantir sua vaga na universidade pública.",
+    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=800&auto=format&fit=crop", 
+    date: "Fev 2024" 
+  },
+  { 
+    id: 3, 
+    title: "Revitalização da Quadra Poliesportiva", 
+    excerpt: "Com apoio do Grêmio, a quadra recebeu nova pintura para os jogos interclasses que se aproximam.", 
+    content: "A prática de esportes é fundamental para o desenvolvimento dos nossos jovens. Por isso, a quadra poliesportiva da EE Américo Franco passou por uma revitalização completa. As marcações de futsal, vôlei e basquete foram refeitas seguindo os padrões oficiais, e o piso recebeu um tratamento especial antiderrapante. Tudo pronto para as seletivas do Interclasses 2024 que começam no próximo mês. Preparem suas torcidas!",
+    image: "https://images.unsplash.com/photo-1544919982-b61976f0ba43?q=80&w=800&auto=format&fit=crop", 
+    date: "Jan 2024" 
+  },
 ];
 
 export const EVENT_DATES: EventDate[] = [
